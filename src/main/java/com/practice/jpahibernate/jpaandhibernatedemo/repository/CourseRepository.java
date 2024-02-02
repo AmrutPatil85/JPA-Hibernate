@@ -30,6 +30,12 @@ public class CourseRepository {
             manager.merge(course);
         }
 
+//        if (course.getId() == null) {
+//            manager.persist(course);
+//        } else {
+//            manager.merge(course);
+//        }
+
         return course;
     }
     //public void deleteById(Long id)
